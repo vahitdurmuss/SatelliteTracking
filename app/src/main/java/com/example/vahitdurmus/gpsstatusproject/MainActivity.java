@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements GpsStatus.Listene
             satellites++;
         }
         numberofgps.setText(String.valueOf(satellites));
-        numberofcgps.setText(String.valueOf(satellitesInFix));
+        numberofcgps.setText(+""+String.valueOf(satellitesInFix));
 
 
 
